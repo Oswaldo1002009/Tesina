@@ -68,5 +68,4 @@ def new_dataset(path):
         tn, fn, fp, tp = cf.ravel()
         print(cf)
 
-new_dataset("UNSW_2018_IoT_Botnet_Dataset_Equitative.csv")
 new_dataset("UNSW_2018_IoT_Botnet_Dataset_beta.csv")

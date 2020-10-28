@@ -60,18 +60,3 @@ def new_dataset(path):
         print(cf)
 
 #new_dataset("UNSW_2018_IoT_Botnet_Dataset_beta.csv")
-
-'''#Confussion matrix and scores
-def cf_calc(X, y):
-     X = scaler.fit_transform(X)
-     pred = knn.predict(X)
-     tn, fn, tp, fp = confusion_matrix(y, pred).ravel()
-     print(confusion_matrix(y, pred))
-     #print(tn, fn, tp, fp)
-     accuracy = (tp + tn) / (tp + fp + tn + fn)
-     false_alarm = fp / (tn + fp)
-     precision = tp / (tp + fp)
-     recall = tp / (tp + fn)
-     f1_score = (2 * precision * recall) / (precision + recall)
-     print("Accuracy: {:.5f}\nFalse Alarm Rate: {:.5f}\nPrecision: {:.5f}\nRecall: {:.5f}\nF1-measure: {:.5f}"
-        .format(accuracy, false_alarm, precision, recall, f1_score))'''
